@@ -14,6 +14,16 @@ const experiences = [
     project: "GoNetZero™ – A global decarbonisation platform",
     technologies: ["Angular", "TailwindCSS", "RESTful APIs", "Karma"],
   },
+  {
+    title: "Freelance / Side Project (2024 - 2025)",
+    company: "Self-Employed",
+    period: "06/2024 - Present",
+    location: "Remote",
+    description:
+      "Developed and maintained personal projects and freelance work, focusing on modern web technologies and best practices.",
+    project: "Personal Portfolio Website",
+    technologies: ["Next.js", "TypeScript", "Framer Motion", "TailwindCSS", "Express.js", "Gitlab CI/CD", "Docker", "Nginx", "NestJS"],
+  }
 ];
 
 const education = [

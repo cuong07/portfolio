@@ -255,7 +255,7 @@ export default function SkillsSection() {
                 </div>
 
                 {/* Electric Border Effect on Hover */}
-                <motion.div
+                {/* <motion.div
                   className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
                   style={{
                     background: `linear-gradient(45deg, transparent, rgba(${isElectricBlue ? "0, 169, 224" : "255, 105, 180"
@@ -270,7 +270,7 @@ export default function SkillsSection() {
                     repeat: Infinity,
                     ease: "linear",
                   }}
-                />
+                /> */}
               </motion.div>
             );
           })}

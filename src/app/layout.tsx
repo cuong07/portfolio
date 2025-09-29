@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   title: "Vo Manh Cuong | Full-Stack Developer & Blockchain Engineer",
   description:
     "Proficient in building RESTful APIs using Node.js, NestJS with TypeScript. Experienced in React, Angular, blockchain integration, and modern web technologies.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -26,6 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >

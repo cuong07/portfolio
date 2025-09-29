@@ -160,7 +160,7 @@ export default function HeroSection() {
                 style={{
                   background:
                     "linear-gradient(135deg, #00A9E0 0%, #FF69B4 50%, #00A9E0 100%)",
-                  backgroundImage: "url('/cuong.png')",
+                  backgroundImage: "url('/cuong.jpg')",
                   backgroundPosition: "center",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
@@ -231,9 +231,8 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
             >
-              Specialized in React, Next.js and creating amazing user
-              experiences with animations and micro-interactions. NestJs for
-              backend development.
+              Frontend Developer with over 1 year of experience specializing in building user-friendly, responsive, and
+              high-performance web applications using <strong className="font-black">ReactJS, NextJS, NestJs, TypeScript, and TailwindCSS</strong>.
             </motion.p>
 
             {/* Electric Social Links */}
@@ -247,7 +246,7 @@ export default function HeroSection() {
                 { icon: Github, href: "https://github.com/cuong7" },
                 {
                   icon: Linkedin,
-                  href: "https://www.linkedin.com/in/v%C3%B5-m%E1%BA%A1nh-c%C6%B0%E1%BB%9Dng-61a367267/",
+                  href: "https://linkedin.com/in/cuong07",
                 },
                 { icon: Mail, href: "mailto:front.cuong@gmail.com" },
               ].map(({ icon: Icon, href }, index) => (

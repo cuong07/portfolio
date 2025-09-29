@@ -25,6 +25,15 @@ const projects = [
     demo: "https://chain4good.io.vn",
   },
   {
+    title: "TroVN - Room Rental",
+    description: "A web platform for searching, managing, and booking rental rooms in Vietnam, offering real-time chat, an intuitive UI, and an admin dashboard for efficient management.",
+    tech: ['ReactJS', 'NodeJS', 'ExpressJS', 'Shadcn', 'Zalo Mini App', 'PostgreSQL', 'Mapbox', 'Redis', 'Azure Computer Vision', 'TailwindCSS', 'Ant Design', 'Socket.io', 'CI-CD', 'Docker'],
+    image: "/trovn.png",
+    period: "(04/2024 - 10/2024",
+    github: "https://github.com/cuong07/tro-client",
+    demo: "https://trovn.io.vn",
+  },
+  {
     title: "GoNetZero™ Platform",
     description:
       "Global decarbonisation platform built during FPT Software training. Implemented pixel-perfect UI components with 90% test coverage.",
@@ -34,15 +43,16 @@ const projects = [
     github: "#",
     demo: "#",
   },
+
   {
     title: "Portfolio Website",
     description:
       "Modern portfolio website showcasing my work with beautiful animations and responsive design. Built with Next.js and Framer Motion.",
     tech: ["Next.js", "React", "Framer Motion", "TailwindCSS", "TypeScript"],
-    image: "/globe.svg",
+    image: "/portfolio.png",
     period: "09/2025",
     github: "https://github.com/cuong07/portfolio",
-    demo: "",
+    demo: "https://manhcuong.tech",
   },
 ];
 
