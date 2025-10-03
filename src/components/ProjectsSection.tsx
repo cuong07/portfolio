@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
+import { title } from "process";
 
 const projects = [
   {
@@ -63,6 +64,14 @@ const projects = [
     period: "08/2025",
     github: "https://github.com/cuong07/orbitx",
     demo: "https://orbitx.vercel.app",
+  },
+  {
+    title: "TroVN - Zalo Mini App",
+    description: "A Zalo Mini App for searching and booking rental rooms in Vietnam, integrated with the TroVN web platform. Features real-time chat, intuitive UI, and seamless booking experience.",
+    tech: ['Zalo Mini App', 'JavaScript', 'CSS', 'HTML', 'RESTful APIs', 'Socket.io'],
+    image: "/trov-zma.png",
+    period: "09/2024 - 10/2024",
+    github: "https://github.com/cuong07/trovn-zma"
   }
 ];
 
@@ -258,8 +267,7 @@ export default function ProjectsSection() {
                   >
                     GitHub
                   </motion.a>
-
-                  <motion.a
+                  {project.demo && <motion.a
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -278,7 +286,8 @@ export default function ProjectsSection() {
                   >
                     <ExternalLink className="w-4 h-4" />
                     Demo
-                  </motion.a>
+                  </motion.a>}
+
                 </div>
               </div>
             </motion.div>
