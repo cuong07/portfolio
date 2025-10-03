@@ -243,7 +243,7 @@ export default function HeroSection() {
               transition={{ duration: 0.8, delay: 0.9 }}
             >
               {[
-                { icon: Github, href: "https://github.com/cuong7" },
+                { icon: Github, href: "https://github.com/cuong07" },
                 {
                   icon: Linkedin,
                   href: "https://linkedin.com/in/cuong07",

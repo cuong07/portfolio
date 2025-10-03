@@ -54,6 +54,16 @@ const projects = [
     github: "https://github.com/cuong07/portfolio",
     demo: "https://manhcuong.tech",
   },
+
+  {
+    title: "OrbitX - Trading Demo",
+    description: "This is a demo trading interface showcasing real-time market data, interactive charts, and a smooth trading experience for practice and exploration purposes only.",
+    tech: ["ReactJS", "TypeScript", "TailwindCSS", "Framer Motion", "Lightweight charts"],
+    image: "/orbitx.png",
+    period: "08/2025",
+    github: "https://github.com/cuong07/orbitx",
+    demo: "https://orbitx.vercel.app",
+  }
 ];
 
 export default function ProjectsSection() {
